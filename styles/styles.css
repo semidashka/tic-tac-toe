@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Open Sams', sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(247, 239, 247);
+    --violet-basic: rgb(140, 0, 255);
+    --violet-hover: rgb( 79, 10, 190);
+    --grey-hover:  rgb(230, 201, 252);
+}
+
+#main-header {
+    background-color: var(--violet-basic);
+    color: white;
+    text-align: center;
+    padding: 2rem 5%;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--violet-basic);
+    border: 1px solid var(--violet-basic);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--violet-basic);
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--violet-hover);
+    border-color: var(--violet-hover);
+}    
+
+.btn-alt:hover {
+    background-color: var(--grey-hover);
+    border-color: transparent;
+}
+
+input {
+    font: inherit;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
