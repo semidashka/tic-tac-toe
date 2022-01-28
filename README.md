@@ -1,1 +1,1 @@
-Browser tic-tac-toc-game
+Browser tic-tac-toe game
