@@ -1,1 +1,1 @@
-Simple browser tic-toc-game
+Browser tic-tac-toc-game
